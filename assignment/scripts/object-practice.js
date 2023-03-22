@@ -10,7 +10,7 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  firstName:'Ilyas',
+  firstName:'Ilyas ',
   lastName:'Mohamed',
   hasSiblings: true,
   shoeCount: 4,
@@ -54,3 +54,6 @@ console.log('My current numnber of shoes are', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'dark blue';
+console.log('My updated object prperies are:',me);
